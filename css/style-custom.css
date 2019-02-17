@@ -540,6 +540,13 @@
 /*----------------------------------------------------------
 #Font-size: 50px
 ----------------------------------------------------------*/
+.fontsize-30 { font-size: 40px; }
+@media (max-width: 959px) { .fontsize-30 { font-size: 30px; }}
+@media (max-width: 320px) { .fontsize-30 { font-size: 26px; }}
+
+/*----------------------------------------------------------
+#Font-size: 50px
+----------------------------------------------------------*/
 .fontsize-155944 { font-size: 50px; }
 @media (max-width: 959px) { .fontsize-155944 { font-size: 33.333333333333px; }}
 @media (max-width: 320px) { .fontsize-155944 { font-size: 28px; }}
@@ -575,6 +582,11 @@
 @media (max-width: 959px) { .fontsize-160206 { font-size: 100px; }}
 @media (max-width: 569px) { .fontsize-160206 { font-size: 30px; }}
 @media (max-width: 320px) { .fontsize-160206 { font-size: 28px; }}
+
+.fontsize-logo { font-size: 30px; }
+@media (max-width: 959px) { .fontsize-logo { font-size: 28px; }}
+@media (max-width: 569px) { .fontsize-logo { font-size: 24px; }}
+@media (max-width: 320px) { .fontsize-logo { font-size: 20px; }}
 
 /*----------------------------------------------------------
 #Line-height: 1.75
